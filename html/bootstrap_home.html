@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title>
+            Bootstrap Home page
+        </title>
+        <!-- our css file-->
+
+        <link rel="stylesheet" href="../css/bootstrap_home.css">
+
+        <!--bootstrap links-->
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- google fonts poppins liks-->
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+        <!-- font awesom cdn-->
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+        <!--top section-->
+        <div class="container-fluid bg-img">
+            <!--login section -->
+
+            <ul class="nav justify-content-end nav-items">
+                
+                <li class="nav-item">
+                  <a class="nav-link font-weight-bolder text-white" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link border rounded-sm font-weight-bolder text-white " href="#">create an account</a>
+                </li>
+                
+            </ul>
+
+            <!-- logo section-->
+
+            <div class="row my-3 text-center">
+                <div class="col-12" >
+                    <p class="logo">e!</p>
+                </div>
+            </div>
+
+            <!--heading-->
+
+            <div class="row  text-center">
+                <div class="col-12 text-white heading" >
+                    <b>Find the best restaurants, cafés, and bars</b>
+                </div>
+            </div>
+            
+            <!-- dropdown and search bar -->
+
+            <div class="row mt-4 mx-1 drop">
+                <div class="col-12 col-sm-0 col-md-2 col-lg-3 col-xl-3"></div>
+                <div class="col-12 col-sm-5 col-md-3 col-lg-2 col-xl-2 ">
+                    
+                    <form>
+                        <select name="cars" class="custom-select rounded-0 font-weight-light dropdown-toggle"
+                         data-toggle="dropdown">
+                          <option selected>select location</option>
+                          <option value="volvo">Hyderabad</option>
+                          <option value="fiat">Delhi</option>
+                          <option value="audi">Mumbai</option>
+                          <option value="volvo">Vizag</option>
+                          <option value="fiat">Pune</option>
+                          <option value="audi">Banglore</option>
+                          <option value="volvo">Chennai</option>
+                          <option value="fiat">Kolkatta</option>
+                          <option value="audi">Goa</option>
+                        </select>
+                    </form>
+
+                </div>
+
+                <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-4 ">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+
+                            <input type="text" class="form-control rounded-0 font-weight-light px-5 search-input" 
+                            id="restaurants" name="restaurents" placeholder="search for restaurents">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                                fill="currentColor" class="bi bi-search magnifying-glass" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1
+                                1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </div>    
+                    </form>
+                </div>
+                <div class="col-12 col-sm-0 col-md-2 col-lg-3 col-xl-3"></div>
+            </div>  
+        </div>
+
+    
+
+        <!--bottom section-->
+        <div class="container-fluid jumbotron bg-light " >
+            <div class="quicksearches">
+                Quick Searches
+            </div>
+            <div class="discover">
+                Discover restaurants by type of meal
+            </div>
+            <div class="row">
+                    <div class="col-12 pr-xs-2 col-sm-12  col-md-6 col-lg-6 col-xl-4 text-center">
+                        <div class="item">
+                            <div class="left">
+                                <img src="../images/breakfast.png" width="100%" height="100%" >
+                            </div>
+                            <div class="right" >
+                                <div class="header">Breakfast</div>
+                                <div class="description">Start your day with exclusive breakfast options</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 text-center">
+                        <div class="item">
+                            <div class="left">
+                                <img src="../images/lunch.png" width="100%" height="100%">
+                            </div>
+                            <div class="right" >
+                                <div class="header">Lunch</div>
+                                <div class="description">Start your day with exclusive lunch options</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 text-center">
+                        <div class="item">
+                            <div class="left">
+                                <img src="../images/drinks.png" width="100%" height="100%">
+                            </div>
+                            <div class="right">
+                                <div class="header">Drinkes</div>
+                                <div class="description">Start your day with exclusive drinks options</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 text-center">
+                        <div class="item">
+                            <div class="left">
+                                <img src="../images/snacks.png" width="100%" height="100%">
+                            </div>
+                            <div class="right" >
+                                <div class="header">Snacks</div>
+                                <div class="description">Start your day with exclusive snacks options</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 text-center ">
+                        <div class="item">
+                            <div class="left">
+                                <img src="../images/dinner.png"  class="dinner" width="100%" height="100%">
+                            </div>
+                            <div class="right" >
+                                <div class="header">Dinner</div>
+                                <div class="description">Start your day with exclusive dinner options</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 text-center">
+                        <div class="item">
+                            <div class="left">
+                                <img src="../images/nightlife.png" width="100%" height="100%">
+                            </div>
+                            <div class="right" >
+                                <div class="header">Nightlife</div>
+                                <div class="description">Start your day with exclusive nightlife options</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+            </div>
+        </div>
+        
+    </body>
+</html>

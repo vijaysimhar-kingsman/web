@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}.bg-img{
+    object-fit:cover;
+    object-position: 0% 55%; 
+    background-image:  linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707),url("../images/dining.png");
+    height: 460px;
+    width: 100%;
+
+    
+}.nav-items{
+    padding-top: 10px;
+    padding-right: 30px;
+    
+
+}.logo{
+    margin-top: 2%;
+    display: inline-block;
+    padding:10px 25px;
+    background-color: white;
+    border-radius: 50%;
+    color: red;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+}.heading{
+    font-size: 190%;
+}.search-input{
+    position: relative;
+}.magnifying-glass{
+    position: absolute;
+    top:20%;
+    left: 5%;
+    
+}
+.item{
+    display: inline-block;
+    width:350px;
+    height: 140px;
+    
+    background-color: white;
+    margin-bottom: 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;}.left{
+    display: inline-block;
+    width: 44.8%;
+    
+}.right{
+    display: inline-block;
+    width: 54%;
+    vertical-align: top;
+    
+}.header{
+   
+    margin: 15px 82px 4px 29px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.description{
+ 
+  margin: 0px 0 44px 29px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+
+}
+
+.quicksearches{
+    font-size: 1.7em;
+    font-weight: 600;
+    
+    color: #192f60;
+    padding-left: 4%;
+    line-height: 2;
+   
+}.drop{
+    color: #636f88;
+}.discover{
+    color: #8c96ab;
+    padding-left: 4%;
+    margin-bottom: 2%;
+}
