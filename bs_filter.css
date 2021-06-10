@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+   
+}body{
+    background-color: #fbfbfb;
+}
+.header-bg{
+    background-color: #eb2929;
+}.logo{
+   
+    height: 60px;
+    width: 60px;
+    margin:0px;
+    padding:0px 10px;
+    border-radius: 50%;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight:600;
+    color:#eb2929;
+}.login,.create_account{
+    margin-top: 20px;
+    font-size: 20px;
+    opacity: 0.95;
+
+}.create_account{
+    text-decoration: none;
+    cursor: pointer;
+}.create{
+    padding:5px 5px 7px 5px;
+    text-decoration: none;
+}.heading{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #192f60;
+    padding-left: 3%;
+}.filter{
+    width:270px;
+    margin-bottom:20px;
+    background-color: #ffffff;
+}.top,.bottom{
+    width:90%;
+    height: 240px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #192f60;
+    background-color: #ffffff;
+}.font1{
+    font-size:1.3rem;
+    color: #192f60;
+}.font2{
+    font-size:1.15rem;
+    color: #192f60;
+}.dull{
+    color:#636f88;
+}.top-utilities{
+    padding-top: 20px;
+   padding-left: 25px;
+}.image{
+    width:120px;
+    height:120px;
+    border-radius: 10px;
+}.line{
+    width:90%;
+    height: 0;
+    margin: -5px 0 10px 15px;
+    border: solid 1px #dedfe5;
+  
+}.price{
+    color: #192f60;
+    font-size: 14px;
+    padding-left:30px!important;
+}.thebig{
+    font-size: 24px;
+    font-weight: 700;
+}.font{
+    font-size: 18px;
+    font-weight: 600;
+}.pagination{
+    display: inline-block;
+    text-align: center;
+    width:34px;
+    height:34px;
+    font-size: 1em;
+    font-weight: 600;
+    padding-top: 5px;
+   margin: -1px 5px;
+}
+
+/*using media quieries  for filter , top and bottom sections #making responsive*/
+@media only screen and (max-width: 400px){
+    .pagination{
+        display: inline-block;
+        text-align: center;
+        width:34px;
+        height:34px;
+        font-size: 1em;
+        font-weight: 600;
+        padding-top: 5px;
+       margin: -1px 0px;
+    }.heading{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px){
+   .filter{
+        width:100%;
+        margin-left: -1em;
+        margin-bottom: 2em;
+   }.top,.bottom{
+        width:100%;
+        height: 180px;
+        margin-bottom:30px;
+        background-color:#ffffff;
+        margin-left:-15px;
+    }.image{
+        width:80px;
+        height:80px;
+        border-radius:10px;
+    }.line{
+        margin: 0px 0 5px 15px;
+    }.top-utilities{
+        line-height: 1em;
+        padding-top: 10px;
+       padding-left: 15px;
+    }.thebig{
+        font-size: 16px;
+        font-weight: 700;
+        padding-left: 30px;
+    }.fort{
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 30px;
+    }.dull{
+        font-size: 12px;
+        padding-left:30px;
+    }.login,.create_account{
+        margin: 20px  0 0 0;
+        font-size: 14px;
+        opacity: 0.95;
+        padding-left: 1rem!important;
+    }.heading{
+        padding-left: 4%;
+    }.pagination{
+        display: inline-block;
+        text-align: center;
+        width:34px;
+        height:34px;
+        font-size: 1em;
+        font-weight: 600;
+        padding-top: 5px;
+        margin: -1px 5px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width:792px) {
+    .filter{
+         width:100%;
+        margin-left: 0em;
+    }.top,.bottom{
+        width:100%;
+        height: 200px;
+        margin-bottom:20px;
+        margin-left: 0rem;
+        background-color: #ffffff;
+        
+    }.image{
+        width:100px;
+        height:100px;
+        border-radius:10px;
+    }.line{
+        margin: 0px 0 5px 15px;
+    }.top-utilities{
+        line-height: 1em;
+       
+    }.login,.create_account{
+        margin: 20px  0 0 0;
+        font-size: 14px;
+        opacity: 0.95;
+    }.heading{
+        padding-left: 12%;
+    }
+   
+ }
+ @media only screen and (min-width: 792px) and (max-width:992px) {
+    .filter{
+         width:90%;
+        margin-left:2em;
+    }.top,.bottom{
+        width:90%;
+        height:230px;
+        margin-bottom: 20px;
+       
+        background-color: #ffffff;  
+    }.heading{
+        padding-left: 22%;
+    }.line{
+        margin: 5px 0 5px 15px;
+    }
+   
+    
+ }@media only screen and (min-width:1000){
+    .content{
+        margin-left: 80%;
+    }
+ }
+
